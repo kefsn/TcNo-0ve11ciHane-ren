@@ -1,0 +1,9 @@
+A B C Ç D E F G Ğ H İ I J K L M N O Ö P R S Ş T U Ü V Y Z
+a b c ç d e f g ğ h i ı j k l m n o ö p r s ş t u ü v y z
+  skip(n) => atlama demek. Akışın ilk n elemanını attıktan sonra bu
+    akışın kalan elemanlarından oluşan bir akış döndürür.
+    Bu akış n'den daha az öğe içeriyorsa, boş bir akış döndürülür.
+    Bu, durum bilgisi olan bir ara işlemdir.
+    skip(list.size()-1) => List'in uzunluğunun 1 eksiğini yazarsak son
+    elemanı yazdırırız.
+    Java is easy with techpro

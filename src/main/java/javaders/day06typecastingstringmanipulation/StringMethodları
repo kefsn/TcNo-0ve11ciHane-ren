@@ -1,0 +1,17 @@
+STRİNG METHODLARI
+1- toUpperCase() : Tün harfleri büyük harf çevirir.
+   -Bize String bir data return(döndürür) eder.
+2- toLowerCase() : Tüm herfleri küçük harf yapar.
+   -Bize String bir data return eder.(Döndürür)
+3- charAt(0) Methodu : Bir String'den belli br index de ki
+characteri almak için kulanılır.char döndürür.
+4-length() methodu:Bir data da ki karaketer sayısını bize verir.
+-int bir değer döndürür
+5-Substring() Methodu : İki kullanımı vardır;
+-Başlangıç ve bitiş index'i verilirse başlangıç indexi dahil,
+ bitiş indexi hariç yazdırır.
+-Metnin ortasından data almamızı sağlar.
+-Stringin verilen index'ten sonuna kadar alınmasına sağlar.
+Bu method bize String döndürür.
+6-contains() : Bir data varmı yok mu diye bakar
+ ve bize bir boolean bir değer döndürür.
