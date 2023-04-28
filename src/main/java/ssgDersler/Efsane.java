@@ -11,6 +11,6 @@ import java.util.stream.IntStream;
 
 public class Efsane {
     public static void main(String[] args) {
-
+//selam merhaba
     }
 }
