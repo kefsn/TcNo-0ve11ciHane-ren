@@ -9,8 +9,27 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+
 public class Efsane {
     public static void main(String[] args) {
-//selam merhaba
+
+
+       Scanner scan = new Scanner(System.in);
+
+       do {
+           System.out.println("Lütfen doğduğunuz yılı giriniz..");
+           int year = scan.nextInt();
+           System.out.println("Lütfen doğduğunuz ayı giriniz..");
+           int month = scan.nextInt();
+           System.out.println("Lütfen doğduğunuz günü giriniz..");
+           int day = scan.nextInt();
+
+           LocalDate date = LocalDate.of(year,month,day);
+           System.out.println("Doğum gününüz : "+date.getDayOfWeek());
+
+       }while (true);
+
+
     }
+
 }
