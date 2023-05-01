@@ -14,21 +14,19 @@ public class Efsane {
     public static void main(String[] args) {
 
 
-       Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
+        System.out.println("LÜtfen bir sayı giriniz...");
 
-       do {
-           System.out.println("Lütfen doğduğunuz yılı giriniz..");
-           int year = scan.nextInt();
-           System.out.println("Lütfen doğduğunuz ayı giriniz..");
-           int month = scan.nextInt();
-           System.out.println("Lütfen doğduğunuz günü giriniz..");
-           int day = scan.nextInt();
+        int sayi = scan.nextInt();
+        carpim(sayi);
 
-           LocalDate date = LocalDate.of(year,month,day);
-           System.out.println("Doğum gününüz : "+date.getDayOfWeek());
 
-       }while (true);
 
+    }
+
+    private static void carpim(int sayi) {
+        sayi = sayi * 3;
+        System.out.println(sayi);
 
     }
 
