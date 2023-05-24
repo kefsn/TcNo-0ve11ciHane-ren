@@ -13,7 +13,6 @@ public class Student {
      -Protected olanlar, aynı package içindeyken public gibi davranırlar.
      Farkli package'a gectiginizde "protected" olanlar sadece child class'lardan gorulebilir
 
-
      */
     public String  stdName = "Ali Can";
     int age = 23;

@@ -6,6 +6,7 @@ public class Arrays9 {
     public static void main(String[] args) {
         //Specisic bir elemanin array'de olup olmadığını anlamak için gereken kodu yazın.
         String names[] = {"K", "C", "R", "A", "S"};
+
         String el = "A";
         int counter =0;
 

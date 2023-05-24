@@ -13,7 +13,51 @@ import java.util.stream.IntStream;
 
 
 public class Efsane {
+
+
     public static void main(String[] args) {
+
+      /*
+
+     Kullanıcıdan Adını Soyadını ve Tc'sinin ilk 9 hanesini girmesini isteyin ve
+      Verilen 9 haneli TC numarısının 10. ve 11. hanelerini kodu yazınız.
+       */
+       Scanner scan = new Scanner(System.in);
+        System.out.println("Lütfen T.C. numaranızı ilk 9 hanesini giriniz...");
+       String tc9hane = scan.nextLine();
+
+        int onuncuRakam;
+        int onBirinciRakam;
+
+       do {
+           int ciftHane = 0;
+           int tekHane = 0;
+           for (int i = 0; i < tc9hane.length() ; i++) {
+               String ch = tc9hane.substring(i, i + 1);
+               if (i % 2 == 0) {
+                   ciftHane = ciftHane + Integer.valueOf(ch);
+
+               }else {
+                   tekHane = tekHane + Integer.valueOf(ch);
+               }
+           }
+            onuncuRakam = (ciftHane*7 -tekHane)%10;
+           onBirinciRakam = 0;
+           for (int i = 0; i <tc9hane.length() ; i++) {
+              String ch = tc9hane.substring(i,i+1);
+               onBirinciRakam = onBirinciRakam + Integer.valueOf(ch);
+           }
+           onBirinciRakam = (onBirinciRakam+onuncuRakam)%10;
+           System.out.println("10. rakam = " + onuncuRakam);
+           System.out.println("11. rakam = " + onBirinciRakam);
+           break;
+
+       }while (true);
+
+
+
+
+
 
 
 

@@ -1,4 +1,4 @@
-package day22stringbuilder;
+package javaders.day22stringbuilder;
 
 public class Sb01 {
 
